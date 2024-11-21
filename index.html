@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <script
+			  src="https://code.jquery.com/jquery-3.6.4.js"
+			  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+			  crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Daniel Rush</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg-dark fixed-top">
+        <div class="container px-4">
+        <a class="navbar-brand" href="#">
+            <img class="img img-fluid" src="img/r_symbol_logo.png" alt="Daniel Rush Logo" width="35" height="35">
+            Home</a>
+
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+
+        </div>
+      </nav>
+
+<!-- Header -->
+<section class="bg-gradient min-vh-100">
+  <div id="carouselExampleControls" data-bs-interval="3500" class="carousel slide w-100 h-100 min-vh-100 fade-in"  data-bs-ride="carousel">
+    <div class="carousel-inner d-flex align-items-center h-100">
+      <div class="carousel-item active text-center">
+        <img class="img img-fluid" src="img/r_symbol_logo.png" alt="Daniel Rush Logo" width="400" height="400">
+        <br>
+        <h1 class="fw-bolder">Daniel Rush</h1>
+        <p class="lead fw-normal text-white-50 mb-0">Full-stack dev / game dev / pro audio</p>
+        <p></p>
+        <a class="btn btn-lg btn-outline-info" href="#section-1">Find out more</a>
+</div>
+      <div class="carousel-item text-center">
+        <div class="speech-bubble3" style="color:#FFF;">
+          <p>Hi, I'm Daniel Rush. I'm a web developer, game developer and audio programmer from Manchester, UK (The Rainy City).</p>
+        </div>
+        <div class="headshot-switch">
+      </div>
+      <p></p>
+        <a class="btn btn-lg btn-outline-info" href="#section-1">Find out more</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+
+
+
+
+    
+              <!-- Header
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <img class="img img-fluid" src="img/r_symbol_logo.png" alt="Daniel Rush Logo" width="400" height="400">
+                <br>
+                <h1 class="fw-bolder">Daniel Rush</h1>
+                <p class="lead fw-normal text-white-50 mb-0">Full-stack dev / game dev / pro audio</p>
+                <p></p>
+                <a class="btn btn-lg btn-outline-info" href="#section-1">Find out more</a>
+            </div>
+        </header>-->
+
+    <!-- Section 1 -->
+    <section class="text-center" id="section-1">
+        <div class="container" style="height:60vh;">
+            <div class="row">
+                <div class="col-md-6">
+                    <img id="taco-image" class="taco" src="img/taco_bw_350x290.png" usemap="#image-map">
+                    <map name="image-map">
+                      <area class="taco-shell" data-src="img/taco_shell_350x290.png" coords="18,232,27,191,44,144,68,108,103,79,142,67,181,60,220,66,254,82,277,102,298,131,311,155,317,174,320,192,324,203,324,221,318,233,304,240,157,231" shape="poly">
+                      <area class="taco-meat-1" data-src="img/taco_meat_350x290.png" coords="16,229,8,221,7,212,6,204,10,198,3,188,10,184,12,172,19,169,15,159,23,154,13,140,18,134,17,127,23,116,25,106,36,101,44,93,50,97,52,111,54,121,32,164" shape="poly">
+                      <area class="taco-meat-1" data-src="img/taco_meat_350x290.png" coords="129,53,138,45,149,44,159,39,175,27,182,30,194,27,201,31,213,31,219,38,227,37,231,46,237,49,242,53,249,56,251,63,258,66,255,74,267,71,270,79,278,79,281,86,290,89,290,97,297,99,305,113,303,123,308,128,316,133,308,138,315,145,305,149,284,113,260,89,230,72,197,62,153,62,142,64" shape="poly">
+                      <area class="taco-meat-1" data-src="img/taco_meat_350x290.png"  coords="316,174,321,169,326,172,319,184,320,192,331,189,341,180,349,184,344,192,348,201,344,208,344,218,339,225,337,234,327,237,320,234,322,215,322,203,317,179" shape="poly">
+                      <area class="taco-salad" data-src="img/taco_salad_350x290.png" coords="9,174,2,153,2,125,8,100,19,82,34,69,50,63,62,56,72,57,92,38,116,26,137,22,161,22,180,24,199,19,222,15,247,24,259,35,264,45,277,60,281,67,291,68,305,79,317,91,326,103,330,121,338,129,344,144,345,159,341,173,335,184,324,191,320,182,327,171,322,166,315,175,308,150,318,145,313,138,320,131,307,123,307,114,300,100,292,90,276,79,269,71,285,87,259,72,258,64,250,56,233,45,228,37,214,33,202,31,196,25,185,29,172,31,160,40,151,44,141,44,131,52,138,58,143,64,133,69,116,73,101,78,92,88,79,96,68,107,57,123,52,107,51,95,45,92,36,100,27,103,23,118,17,124,17,136,12,142,20,155,15,159,19,169" shape="poly">
+                  </map>
+                </div>
+                <div class="col-md-6 justify-content-center text-center">
+                    <div class="info-taco-intro">
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p class="lead fw-normal text-white-50 mb-0 resize-text" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <b>Hover/tap the taco to reveal skills & tools</b><br>
+                    used to pack websites & apps full of flavour.</p>
+                  <p>&nbsp;</p>
+                     </div>
+
+                     <div class="info" id="info-shell">
+                      <div class="speech-bubble">
+                        <p class="lead fw-normal text-white-50 mb-0 resize-text">Front end development:</p>
+                        <p></p>
+                        <div class="row justify-content-center">
+                            <div class="col-2 info-col">
+                                <img src="img/html5ico.png" style="width:35px;padding:3px" c class="img-fluid" alt="HTML5"><br>
+                                HTML5
+                            </div>
+                            
+                            <div class="col-2 info-col">
+                                <img src="img/cssico.png" style="width:35px;" class="img-fluid" alt="CSS3"><br>
+                                 CSS
+                            </div>
+    
+                            <div class="col-2 info-col">
+                                <img src="img/jsico.png" style="width:35px;" class="img-fluid" alt="JavaScript"><br>
+                                JavaScript
+                            </div>
+                            
+                            <div class="col-2 info-col">
+                                <img src="img/reactico.png" style="width:35px;" class="img-fluid" alt="React"><br>
+                                React
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/reduxico.png" style="width:35px;" class="img-fluid" alt="Next.js"><br>
+                                Redux
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/jqueryico.png" style="width:35px;" class="img-fluid" alt="jQuery"><br>
+                                jQuery
+                                </div>
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="info info-meat  floating-text" style="display:none;">
+                      <div class="speech-bubble">
+                        <p class="lead fw-normal text-white-50 mb-0 resize-text">Game development & pro audio:</p>
+                        <p></p>
+                        <div class="row justify-content-center">
+                            <div class="col-2 info-col">
+                                <img src="img/unityico.png" style="width:35px;" class="img-fluid" alt="Unity"><br>
+                                Unity
+                            </div>
+
+                            <div class="col-2 info-col">
+                                <img src="img/ue5ico.png" style="width:35px;" class="img-fluid" alt="3D"><br>
+                                UE5
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/cppico.png" style="width:35px;" class="img-fluid" alt="3D"><br>
+                                C++
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/wwiseico.png" style="width:35px;" class="img-fluid" alt="3D"><br>
+                                Wwise
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/protoolsico.png" style="width:40px;" class="img-fluid" alt="3D"><br>
+                                Pro Tools Certified
+                            </div>
+                            <div class="col-2 info-col">
+                                <img src="img/danteico.png" style="width:35px;" class="img-fluid" alt="3D"><br>
+                                Dante Certified
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="info floating-text" id="info-salad">
+                      <div class="speech-bubble">
+                        <p class="lead fw-normal text-white-50 mb-0 resize-text"> Back end development:</p>
+                        <p></p>
+                        <div class="row justify-content-center">
+                            <div class="col-3 info-col">
+                                <img src="img/nodeico.png" style="width:35px;" class="img-fluid" alt="Node.js"><br>
+                                Node.js &nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div class="col-3 info-col">
+                                <img src="img/npmico.png" style="width:35px;" class="img-fluid" alt="NPM"><br>
+                                NPM &nbsp;&nbsp;&nbsp;
+                            </div>
+                            <div class="col-3 info-col">
+                                <img src="img/exico.png" style="width:35px;" class="img-fluid" alt="Express"><br>
+                                Express
+                            </div>
+                        </div>
+                        </div>
+                    </div>   
+
+                </div>
+            </div> 
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <a class="btn btn-lg btn-outline-info" href="#section-2">Check out my projects</a>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="text-center bg-light" id="section-2">
+      <div class="container">
+
+
+        <div class="row justify-content-center" style="height:60vh; margin-top:10%;">
+          <div class="col-md-6 justify-content-center" style="margin-top:5;">
+            <img src="img/city_380x290.png" id="city-image" usemap="#city-map" width="380" height="290">
+
+            <map name="city-map">
+                <area class="city-areas info-city-1" data-info="1" data-src="img/city_glow1_380x290.png" alt="NFTropolis" title="NFTropolis" coords="50,87,65,62,92,58,120,75,121,155,111,176,74,181,50,167" shape="poly">
+                <area class="city-areas info-city-2" data-info="2" data-src="img/city_glow2_380x290.png" alt="VRIG" title="VRIG" coords="168,200,168,119,188,109,254,148,254,228,201,258,180,246,179,208" shape="poly">
+                <area class="city-areas info-city-3" data-info="3" data-src="img/city_glow3_380x290.png" alt="UE5" title="UE5" coords="239,139,239,93,264,76,289,94,309,82,334,96,336,182,310,195,283,181,283,164,263,175,254,169,251,145" shape="poly">
+                <area class="city-areas info-city-4" data-info="4" data-src="img/city_glow4_380x290.png" alt="Extra" title="Extra" coords="136,107,137,27,183,1,234,30,234,111,217,121,180,99,151,116" shape="poly">
+                <area class="city-areas info-city-5" data-info="5" data-src="img/city_floor1_380x290.png" alt="floor 1" title="floor 1" coords="5,164,6,153,50,128,50,164,75,181,111,175,121,155,122,126,167,152,166,157,89,202,89,212" shape="poly">
+                <area class="city-areas info-city-6" data-info="6" data-src="img/city_floor2_380x290.png" alt="floor 2" title="floor 2" coords="115,227,116,217,167,188,167,200,178,209,178,245,201,258,253,228,253,202,279,218,279,228,199,275" shape="poly">
+                <area class="city-areas info-city-7" data-info="7" data-src="img/city_floor3_380x290.png" alt="floor 3" title="floor 3" coords="300,217,299,207,254,181,254,168,264,175,283,164,284,180,310,193,335,180,336,145,371,165,371,175" shape="poly">
+                <area class="city-areas info-city-8" data-info="8" data-src="img/city_floor4_380x290.png" alt="floor 4" title="floor 4" coords="121,105,121,87,136,79,136,106,151,115,179,99,217,119,234,112,235,87,239,88,237,116,219,127,187,109,168,120,166,132" shape="poly">
+            </map>
+          </div>
+          
+          <div class="col-md-6 justify-content-center text-center">
+            <div id="info-city-intro" class="info-city-intro">
+                <p class="lead fw-normal text-white-50 mb-0 resize-text">
+                    <b>Hover/tap buildings & their foundations </b><br>
+                    to see projects I've constructed<br>
+
+                </p>
+            <img src="img/city_hover_building2.png">
+            
+            </div>
+            <div id="info-city-1" class="info">          
+                    <div class="speech-bubble2" >
+
+                    <div class="row">
+                      <div class="col-md-3">
+                        <img src="img/webico1.png" style="margin-top:0;width:100px;">
+                        </div>
+                        <div class="col-md-9">
+                      <p class="lead fw-normal text-white-50 mb-0 resize-text-small">
+                      NFTropolis, a web-based virtual world with emotional speech synthesis triggered by NFTs.
+                    </p>
+                    </div>
+</div>
+                    </div>
+                    <div class="floating-text">
+                      <img class="mockup-dropshadow" style="margin-top:25px;" src="img/nftropolis_laptop_mockup.png" width="90%">
+                      </div>
+            </div>
+
+
+            <div id="info-city-2" class="info">
+              <div class="speech-bubble">
+
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="img/gameico1.png" style="margin-top:0%;width:100px;">
+                    </div>
+                    <div class="col-md-9">
+                <p class="lead fw-normal text-white-50 mb-0 resize-text-small">
+                  'Audio Scavenger Hunt' is a UE5 game that combines my passion for sound design, audio programming, and game development. 
+                </p> 
+                </div>       
+              </div>
+              </div>
+              <div class="floating-text">
+                <img class="mockup-dropshadow mb-3" src="img/ue5_screen_mockup.png" width="85%">             
+              </div>
+            </div>
+
+            <div id="info-city-3" class="info">              
+                <div class="speech-bubble2">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="img/vrico1.png" style="margin-top:0%;width:100px;">
+                    </div>
+                    <div class="col-md-9">
+                     <p class="lead fw-normal text-white-50 mb-0 resize-text-small">
+                    VR Illusion Generator is a web app that recreates Phantom Words illusions. Experience hearing non-existent words or sounds.<br>
+                    </p>
+                    </div>
+                    </div>
+                  </div>
+  <div class="floating-text">
+    <p></p>
+  <img class="mockup-dropshadow mb-3"  src="img/vrig_mobile_mockup.png" width="55%">             
+  </div>
+                
+                </div>
+
+            <div id="info-city-4" class="info">
+                </div>
+
+            <div id="info-city-5" class="info">
+              <div class="speech-bubble">
+                <p class="lead fw-normal text-white-50 mb-0 resize-text">
+                  Developing NFTropolis was a challenge
+                </p>
+              </div>
+            </div>
+
+            <div id="info-city-6" class="info"></div>
+
+            <div id="info-city-7" class="info"></div>
+
+            <div id="info-city-8" class="info"></div>
+
+      </div> 
+
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <div class="row mb-4">
+      <div class="col-md-12">
+        <a class="btn btn-lg btn-outline-info" href="#section-3">See docs</a>
+      </div>
+    </div>
+    
+    </div>
+
+    </section>
+
+<!-- Section 3 -->
+<section id="section-3">
+  <div class="container justify-content-center text-center">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        </p>
+        </p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="input-group mb-3">
+            <textarea class="form-control" id="doc-input" placeholder="Type a command... (try /docs, /videos or /audio)" aria-label="Type a command..." aria-describedby="button-view-docs"></textarea> 
+            <button class="btn btn-primary green-button" type="button" id="button-view-docs">Run</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    
+    <div id="doc-list">
+        <button class="btn btn-outline-info mb-4" href="#" type="button">CV (2023)</button>&nbsp;
+        <button class="btn btn-outline-info mb-4" href="#" type="button">Pro Tools 110 Certification</button>&nbsp;
+        <button class="btn btn-outline-info mb-4" href="#" type="button">Dante Level 3 Certification</button>&nbsp;
+        <button class="btn btn-outline-info mb-4" href="#" type="button">Spatial Audio Experiment</button>&nbsp;
+        <button class="btn btn-outline-info mb-4" href="#" type="button">Max Blofeld Patch</button>
+        
+        </ul>
+      </div>
+    <div id="video-list">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+      <iframe src="https://player.vimeo.com/video/798721633?h=7b3cf3fd0e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="350" height="197" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="DR Sound Design &amp;amp; Audio Programming"></iframe>
+      </div>
+      <div class="col-md-6">
+        <iframe src="https://player.vimeo.com/video/799136391?h=8275dccd59&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="350" height="197" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Preview of UE5 Game"></iframe>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-6">
+          <iframe src="https://player.vimeo.com/video/799194973?h=1f0f1ac3f2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="350" height="197" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="A peek at my final project"></iframe>          </div>
+          <div class="col-md-6">
+            <iframe src="https://player.vimeo.com/video/807621019?h=cbe9dab438&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="350" height="197" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="NFTropolis"></iframe></div>
+          </div>
+        </div>
+    
+
+      <div id="photo-list">
+        <ul class="list-unstyled">
+          <li><a href="#">Photo 1</a></li>
+          <li><a href="#">Photo 2</a></li>
+          <li><a href="#">Photo 3</a></li>
+          <li><a href="#">Photo 4</a></li>
+        </ul>
+      </div>
+      <div id="music-list">
+        <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1190386861&color=%237d8982&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/danielrushsounddesign" title="Daniel Rush Sound Design" target="_blank" style="color: #cccccc; text-decoration: none;">Daniel Rush Sound Design</a> · <a href="https://soundcloud.com/danielrushsounddesign/where-the-wild-things-are-audiobook" title="Where The Wild Things Are Audiobook" target="_blank" style="color: #cccccc; text-decoration: none;">Where The Wild Things Are Audiobook</a></div>
+        <iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1238053921&color=%2364645c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/lord_rush" title="Lord Rush" target="_blank" style="color: #cccccc; text-decoration: none;">Lord Rush</a> · <a href="https://soundcloud.com/lord_rush/six-shooter-wip" title="Six Shooter" target="_blank" style="color: #cccccc; text-decoration: none;">Six Shooter</a></div>
+    </div>
+</section>
+
+
+
+            <!-- Contact section-->
+            <section id="contact" class=" bg-light">
+                <div class="container px-4">
+                    <div class="row gx-4 justify-content-center">
+                        <div class="col-lg-8 text-center">
+                            <h2>dan.rush02@gmail.com</h2>
+                            <p>&nbsp;</p>  
+                                <a href="https://www.facebook.com/danielrushsounddesign" target="_blank"><img src="img/facebookico.png" alt="Facebook" class="socialMedia"></a>
+                                <a href="https://www.instagram.com/dr_sound_design/" target="_blank"><img src="img/instagramico.png" alt="Instagram" class="socialMedia"></a>
+                                <a href="https://www.linkedin.com/in/daniel-rush-/" target="_blank"><img src="img/linkedinico.png" alt="LinkedIn" class="socialMedia"></a>
+                                <a href="https://soundcloud.com/danielrushsounddesign" target="_blank"><img src="img/soundcloudico.png" width="43" height="43"  alt="SoundCloud" class="socialMedia"></a>
+                                <a href="https://vimeo.com/user111763959" target="_blank"><img src="img/vimeoico.png" width="43" height="43" alt="Vimeo" class="socialMedia"></a>				
+                                <a href="https://github.com/drush92" target="_blank"><img src="img/githubico.png" alt="GitHub" class="socialMedia"></a>
+                                <a href="https://discordapp.com/users/e30ydj#6096" target="_blank"><img src="img/discordico.png" alt="Discord" class="socialMedia"></a>
+                            </p>	                    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Daniel Rush 2023</p></div>
+            </footer>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script type="module" src="js/taco.js"></script>
+    <script type="module" src="js/city.js"></script>
+    <script type="module" src="js/docs.js"></script>
+    <script type="module" src="js/fadein.js"></script>
+  </body>
+</html>
